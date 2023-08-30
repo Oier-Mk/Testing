@@ -1,4 +1,3 @@
-import pywhatkit as kit
 
 import requests
 
@@ -36,7 +35,7 @@ while True:
         hora_envio = int(input("Introduce la hora de envío (formato 24 horas): "))
         minutos_envio = int(input("Introduce los minutos de envío: "))
         
-        kit.sendwhatmsg(numero_destino, mensaje, hora_envio, minutos_envio)
+        #kit.sendwhatmsg(numero_destino, mensaje, hora_envio, minutos_envio)
         print("Mensaje enviado!")
     elif opcion == "2":
         print("Saliendo del programa...")
